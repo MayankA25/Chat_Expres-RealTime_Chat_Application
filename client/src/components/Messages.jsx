@@ -20,7 +20,7 @@ const Messages = () => {
 
   useEffect(()=>{
     ref.current?.scrollIntoView({ behaviour: "smooth" })
-  }, [])
+  }, [messages])
 
   return (
     <div className="flex flex-col py-5 px-3 gap-2 w-full h-[83%] overflow-y-scroll scrollbar-thin overflow-x-hidden">
