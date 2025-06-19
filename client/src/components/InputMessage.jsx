@@ -24,8 +24,8 @@ const InputMessage = () => {
 
     const fileReader = new FileReader();
     fileReader.readAsDataURL(file);
-    fileReader.onload = () => {
-      const fileURL = fileReader.result;
+    fileReader.onload = (e) => {
+      const fileURL = e.target.result;
       setPreviewImage(fileURL);
       setMessage({ ...message, image: fileURL })
     };

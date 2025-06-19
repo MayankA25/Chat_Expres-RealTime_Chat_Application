@@ -16,7 +16,7 @@ const Settings = () => {
         <div className="flex flex-col gap-2">
           <h2 className="font-bold text-[25px]">Theme</h2>
           <h2 className="text-base-content/60 text-[22px] font-semibold">
-            Choose A Theme For Your Chat Interface{" "}
+            Choose A Theme For Your StudoSphere Interface{" "}
           </h2>
 
           <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-2">
